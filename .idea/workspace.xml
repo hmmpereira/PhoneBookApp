@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/ContactController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/GetAllContactsTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/GetAllContactsTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Datasource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Datasource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/PhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MusicUI/sample/model/PhoneNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/ContactController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/GetAllContactsTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/Datasource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MusicUI/sample/model/PhoneNumber.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/main.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -100,6 +101,11 @@
           <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
@@ -107,10 +113,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="17">
               <caret line="86" column="73" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -311,11 +317,11 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547126602256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547128024074" />
     <property name="dynamic.classpath" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite-jdbc-3.23.1.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -747,7 +753,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="MusicUI" />
+      <module name="ContactsUI" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -772,6 +778,19 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ContactsUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -857,9 +876,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.10254372" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.10254372" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -869,7 +887,7 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -985,16 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="86" column="73" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ContactController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1049,11 +1057,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="86" column="73" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1114,7 +1132,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

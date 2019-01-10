@@ -17,7 +17,7 @@ public class Main extends Application {
         Controller controller = loader.getController();
         controller.listContacts();
 
-        primaryStage.setTitle("Music Database");
+        primaryStage.setTitle("PhoneBookApp");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }

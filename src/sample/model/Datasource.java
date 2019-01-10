@@ -49,7 +49,7 @@ public class Datasource {
             COLUMN_CONTACTS_PHONENUMBER + " = ?";
 
     public static final String QUERY_PHONEBOOK = "SELECT * FROM " +
-            TABLE_CONTACTS + " WHERE " + COLUMN_CONTACTS_NAME + " = ? OR " + COLUMN_CONTACTS_ADDRESS + " = ? OR " +
+            TABLE_CONTACTS + " WHERE " + COLUMN_CONTACTS_NAME + " LIKE ? OR " + COLUMN_CONTACTS_ADDRESS + " = ? OR " +
             COLUMN_CONTACTS_PHONENUMBER + " = ?";
 
     public static final String QUERY_ADDRESSES = "SELECT " + COLUMN_ADDRESS_ID + " FROM " +
@@ -202,7 +202,7 @@ public class Datasource {
 
     public List<Contact> queryContact(String name, String address, int phoneNumber) {
         try {
-            queryPhoneBook.setString(1, name);
+            queryPhoneBook.setString(1, "%" + name + "%");
             queryPhoneBook.setString(2, address);
             queryPhoneBook.setInt(3, phoneNumber);
             ResultSet results = queryPhoneBook.executeQuery();
@@ -226,7 +226,7 @@ public class Datasource {
 
     public List<Contact> queryContact(String name, String address) {
         try {
-            queryPhoneBook.setString(1, name);
+            queryPhoneBook.setString(1, "%" + name + "%");
             queryPhoneBook.setString(2, address);
             queryPhoneBook.setInt(3, -1);
             ResultSet results = queryPhoneBook.executeQuery();

@@ -26,7 +26,6 @@ public class Main extends Application {
     public void init() throws Exception {
         super.init();
         if(!Datasource.getInstance().open()) {
-            System.out.println("File path: " + Datasource.FILE_PATH +"\n");
             System.out.println("FATAL ERROR: Couldn't connect to database");
             Platform.exit();
         }

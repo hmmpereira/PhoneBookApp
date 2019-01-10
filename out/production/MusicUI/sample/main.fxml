@@ -48,9 +48,6 @@
                     </cellValueFactory>
                 </TableColumn>
             </columns>
-            <BorderPane.margin>
-                <Insets right="10.0" />
-            </BorderPane.margin>
         </TableView>
     </center>
     <bottom>

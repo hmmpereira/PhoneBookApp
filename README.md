@@ -5,16 +5,23 @@ A simple Java application to manage your contacts (name, address and phone numbe
 ## Getting Started
 
 Download this project and open it at IntelliJ IDEA.
+
 Make sure to define Language level and SDK to at least Java 9.
+
 Run the main Class and Start playing.
+
 A new window will appear and you can access to the menu to add, edit, search and delete contacts.
+
 To be able to delete or edit select the contact you want to perform the action before selecting from menu.
+
 You can always press the "List Contacts" button at the bottom to see all contacts.
 
 ### Prerequisites
 
 Use IntelliJ IDEA to open the project (haven't tested in other IDE's).
+
 Download SQLite (https://www.sqlite.org/download.html) version depending on your OS.
+
 Keep the data base file "PhoneBook.db" in project folder.
 
 ### Checking
